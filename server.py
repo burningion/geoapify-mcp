@@ -34,10 +34,10 @@ def get_gps_coordinates(address: str) -> dict:
     return get_geocode(address, APIKEY)
 
 @mcp.tool()
-def create_map_from_geojson(geojson_coordinates: dict) -> str:
+def create_map_from_geojson(filename: str, geojson_coordinates: dict) -> str:
     """Creates a map image from GeoJSON coordinates"""
-    generate_image.create_map_from_geojson(geojson_coordinates, "temp_map.png")
-    subprocess.run(["open", "temp_map.png"])
+    generate_image.create_map_from_geojson(geojson_coordinates, f"{filename}.png")
+    subprocess.run(["open", f"{filename}.png"])
     return f"Map image created at {os.curdir}/temp_map.png, and shown to user."
 
 if __name__ == "__main__":
