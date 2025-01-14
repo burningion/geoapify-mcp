@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "179 avenue du Général Leclerc",
+        "description": "côté Rive Gauche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2328097, 48.8300927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "158 avenue du Général Leclerc",
+        "description": "côté Rive Droite à l'angle de la rue Jules Herbron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.232786, 48.8300854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "112 avenue du Général Leclerc",
+        "description": "côté Rive Droite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.233788542758794, 48.830931500000005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "34 avenue du Général Leclerc",
+        "description": "côté Rive Droite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2403389, 48.8328194]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "57 rue Gaston Boissier",
+        "description": "à côté de la borne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.239832, 48.836534]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "6 avenue de Versailles",
+        "description": "près du centre aquatique des Bertisettes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1718888, 48.826612]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Avenue Pierre Grenier",
+        "description": "Placette croisement avenue Pierre Grenier / avenue Robert Hardouin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2491541, 48.8264375]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "107 avenue Gaston Boissier",
+        "description": "en face de la caserne des pompiers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1849247, 48.8009949]
+      }
+    }
+    ,
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route du Pavé de Meudon",
+        "description": "à côté du chêne de la Vierge",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2345, 48.8250]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rue Costes et Bellonte",
+        "description": "3 places sur parking",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2428, 48.8315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rue Joseph Chaleil",
+        "description": "",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2405, 48.8290]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "25 sente de la Procession",
+        "description": "",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2380, 48.8340]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "33 rue Joseph Bertrand",
+        "description": "",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2425, 48.8330]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Saint Paul",
+        "description": "",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2450, 48.8345]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place de la bataille de Stalingrad",
+        "description": "",
+        "note": "approximate location"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2460, 48.8320]
+      }
+    }
+  ]
+}
