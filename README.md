@@ -6,7 +6,7 @@ Convert addresses into GPS coordinates for mapping, and optionally create an ima
 
 ## Installation
 
-You'll need to get an API key from Geoapify, and set it as an environment variable named `GEO_APIKEY`.
+You'll need to get an API key from [Geoapify](https://www.geoapify.com/), and set it as an environment variable named `GEO_APIKEY`.
 
 Your `claude_desktop_config.json` will look like this after:
 
