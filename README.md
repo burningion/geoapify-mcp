@@ -4,6 +4,40 @@ Convert addresses into GPS coordinates for mapping, and optionally create an ima
 
 ![Example Map](./temp_map.png)
 
+## Installation
+
+You'll need to get an API key from Geoapify, and set it as an environment variable named `GEO_APIKEY`.
+
+Your `claude_desktop_config.json` will look like this after:
+
+```json
+"MCP Map Demo": {
+      "command": "uv",
+      "args": [
+	"--directory",
+        "/PATH/TO/THIS/REPO",
+        "run",
+        "--with",
+        "fastmcp",
+        "--with",
+        "requests",
+        "--with",
+        "folio",
+        "--with",
+        "selenium",
+        "--with",
+        "pillow",
+        "fastmcp",
+        "run",
+        "/PATH/TO/THIS/REPO/server.py"
+      ],
+      "env": {
+        "GEO_APIKEY": "YOURAPIKEY"
+      }
+    }
+```
+
+You'll notice we include all the dependencies in our `args`.
 
 ## Tools
 
