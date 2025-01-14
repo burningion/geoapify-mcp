@@ -30,11 +30,12 @@ def get_geocode(search_address, api_key):
 # Get GPS coordinates for an address
 @mcp.tool()
 def get_gps_coordinates(address: str) -> dict:
-    """Add two numbers"""
+    """Gets GPS coordinates for an address"""
     return get_geocode(address, APIKEY)
 
 @mcp.tool()
 def create_map_from_geojson(geojson_coordinates: dict) -> str:
+    """Creates a map image from GeoJSON coordinates"""
     generate_image.create_map_from_geojson(geojson_coordinates, "temp_map.png")
     subprocess.run(["open", "temp_map.png"])
     return f"Map image created at {os.curdir}/temp_map.png, and shown to user."
