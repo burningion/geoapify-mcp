@@ -1,0 +1,10 @@
+[project]
+name = "map-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]===1.2.0rc1",
+    "requests>=2.32.3",
+]
