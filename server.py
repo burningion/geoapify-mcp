@@ -6,7 +6,6 @@ from urllib.parse import quote
 import os
 import generate_image
 from PIL import Image as PILImage
-import json
 import subprocess
 
 APIKEY = os.environ.get("GEO_APIKEY")
@@ -36,10 +35,9 @@ def get_gps_coordinates(address: str) -> dict:
 
 @mcp.tool()
 def create_map_from_geojson(geojson_coordinates: dict) -> str:
-    json.dump(geojson_coordinates, open("temp_geojson.json", "w"))
-    subprocess.call(["uv", "run", "python", "generate_image.py", "temp_geojson.json"])
-    subprocess.call(["open", "map.png"])
-    return f"file lives at {os.curdir}/map.png"
+    generate_image.create_map_from_geojson(geojson_coordinates, "temp_map.png")
+    subprocess.run(["open", "temp_map.png"])
+    return f"Map image created at {os.curdir}/temp_map.png, and shown to user."
 
 if __name__ == "__main__":
     mcp.run() 
